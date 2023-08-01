@@ -1,0 +1,242 @@
+/*================ common styles=================== */
+
+:root {
+   --roboto-font: 'Roboto', sans-serif;
+   --raleway-font: 'Raleway', sans-serif;
+   --font-size-subtitel: 36px;
+   --font-size-logo: 18px;
+   --font-size-min-titel: 20px;
+   --navyblue: #2e2f42;
+   --iris: #4D5AE5;
+   --white: #FFF;
+   --slate: #434455;
+   --cloud: #F4F4FD;
+   --cornflower: #E7E9FC;
+   --ocean: #404BBF;
+}
+
+.sub-titel {
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: var(--navyblue);
+   text-align: center
+}
+
+.list {
+   list-style: none;
+}
+
+.link {
+   color: currentColor;
+   text-decoration: none;
+}
+
+.button {
+   cursor: pointer;
+}
+
+.text {}
+
+.heading {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
+}
+
+
+
+.logo {
+   font-family: var(--raleway-font);
+   color: var(--iris);
+   font-size: var(--font-size-logo);
+   font-weight: 800;
+   line-height: 1.17;
+   letter-spacing: 0.54px;
+   text-transform: uppercase;
+}
+
+body {
+   font-family: var(--roboto-font);
+   font-weight: 400;
+   font-size: 16px;
+   color: var(--slate);
+   background-color: var(--white);
+   line-height: 1.5;
+   letter-spacing: 0.32px;
+}
+
+/*================ header section=================== */
+
+.header-section {}
+
+.header-logo {}
+
+.header-logo-wrap {
+   color: var(--navyblue);
+}
+
+.header-list {}
+
+.header-list-item {}
+
+.header-list-link {
+   font-weight: 500;
+   color: var(--navyblue);
+}
+
+.address-block {
+   font-style: normal
+}
+
+.address-list {}
+
+.address-list-item {}
+
+.address-list-link {}
+
+.header-list-link:hover,
+.header-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus {
+   color: var(--ocean);
+}
+
+/*================ business section and main =================== */
+
+.main-section {}
+
+.business-section {
+   background-color: var(--navyblue);
+}
+
+.business-titel {
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 1.07;
+   letter-spacing: 1.12px;
+   text-align: center;
+   color: var(--white);
+}
+
+.business-button {
+   font-family: var(--roboto-font);
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--white);
+   background-color: var(--iris);
+}
+
+.business-button:hover,
+.business-button:focus {
+   background-color: var(--ocean);
+}
+
+/*================description section=================== */
+
+.description-section {}
+
+.description-list {}
+
+.description-list-item {}
+
+.description-list-titel {}
+
+.description-list-text {}
+
+/*================we doing section=================== */
+
+.we-doing-section {}
+
+.we-doing-sub-titel {}
+
+.we-doing-list {}
+
+.we-doing-list-item {}
+
+.we-doing-list-img {}
+
+/*================team section=================== */
+
+.team-section {
+   background-color: var(--cloud);
+}
+
+.team-titel {}
+
+.team-list {}
+
+.team-list-item {
+   background: var(--white);
+}
+
+.team-list-img {}
+
+.team-list-titel {}
+
+.team-list-text {}
+
+/*================footer section=================== */
+
+.footer-section {
+   background-color: var(--navyblue);
+}
+
+.footer-logo {}
+
+.footer-logo-wrap {
+   color: var(--cloud);
+}
+
+.footer-text {
+   color: var(--cloud);
+}
+
+
+/* ------------section portfolio--------------- */
+
+.main-section-portfolio {}
+
+/* ------------gallery filter--------------- */
+.portfolio-filter-list {}
+
+.filter-list-item {}
+
+.filter-list-button {
+   font-family: var(--roboto-font);
+   font-weight: 500;
+   line-height: 1.5;
+   font-size: 16px;
+   background-color: var(--cloud);
+   color: var(--iris);
+   letter-spacing: 0.04em;
+}
+
+
+.filter-list-button:hover,
+.filter-list-button:focus {
+   background-color: var(--ocean);
+   color: var(--white);
+}
+
+/* ------------gallery-section--------------- */
+
+.gallery-section {}
+
+.gallery-list {}
+
+.gallery-list-item {}
+
+.gallery-list-link {}
+
+.gallery-list-img {}
+
+.gallery-list-titel {}
+
+.gallery-list-text {}
